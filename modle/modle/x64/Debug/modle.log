@@ -1,0 +1,27 @@
+﻿  ObjLoader.cpp
+E:\VSlearn\openGL\modle\modle\ObjLoader.cpp(101,11): warning C4101: “VN”: 未引用的局部变量
+  main.cpp
+  正在生成代码...
+x64\Debug\Texture.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+main.obj : error LNK2019: 无法解析的外部符号 glutInit，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutInitDisplayMode，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutInitWindowPosition，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutInitWindowSize，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutMainLoop，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutCreateWindow，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutPostRedisplay，函数 "void __cdecl myIdle(void)" (?myIdle@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutSwapBuffers，函数 "void __cdecl display(void)" (?display@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutCreateMenu，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutAddMenuEntry，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutAddSubMenu，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutAttachMenu，函数 "void __cdecl init(void)" (?init@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutDisplayFunc，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutReshapeFunc，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutKeyboardFunc，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutMouseFunc，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutMotionFunc，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glutIdleFunc，函数 main 中引用了该符号
+ObjLoader.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl buildTexture(char *,unsigned int &)" (?buildTexture@@YA_NPEADAEAI@Z)，函数 "public: bool __cdecl Model::setTexture(char *)" (?setTexture@Model@@QEAA_NPEAD@Z) 中引用了该符号
+GLaux.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\VisualStudio\VC\Tools\MSVC\14.29.30133\lib\x64\glut32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+E:\VSlearn\openGL\modle\x64\Debug\modle.exe : fatal error LNK1120: 19 个无法解析的外部命令
